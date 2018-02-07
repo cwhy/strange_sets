@@ -1,4 +1,4 @@
-from count import CountSquares
+from strange_sets.count import CountSquares
 from MLkit.mpl_helper import visualize_matrix
 
 dat = CountSquares()

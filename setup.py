@@ -1,9 +1,9 @@
 from setuptools import setup
 
 setup(
-    name='Strange Sets',
+    name='strange_sets',
     version='0.01dev',
-    packages=['count'],
+    packages=['strange_sets'],
     url='',
     license='GPL',
     author='CWhy',

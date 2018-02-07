@@ -1,7 +1,8 @@
 Strange sets
 ====
 
-I am trying to create some hard dataset for general machine learning yet easy to human.
+I am trying to create some datasets
+that are hard for general machine learning yet easy to human.
 
 Depends on MLkit:
 https://github.com/cwhy/MLkit

@@ -16,3 +16,13 @@ pip install git+git://github.com/cwhy/MLkit.git@master
 ```bash
 pip install git+git://github.com/cwhy/strange_sets.git@master
 ```
+
+## Develop Strange Sets:
+*
+```bash
+cd /some/directory
+git clone git://github.com/cwhy/strange_sets.git
+pip install -e /some/directory/strange_sets
+```
+* Modify the code
+* Pull requests are welcome

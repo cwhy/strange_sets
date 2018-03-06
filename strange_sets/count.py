@@ -24,7 +24,7 @@ class CountSquares(BaseDataSet):
                  max_size: Optional[int] = 8,
                  encode_y: Encoding = Encoding.T_1HOT,
                  flatten_x: bool = False,
-                 trial_size: Optional[int] = None,
+                 n_trials: Optional[int] = None,
                  name="count_squares"):
 
         self.flatten_x = flatten_x
@@ -39,10 +39,10 @@ class CountSquares(BaseDataSet):
             self.max_size = int(self.dim_x / _dim_y / _dim_y)
         else:
             self.max_size = max_size
-        if trial_size is None:
+        if n_trials is None:
             self.n_trials = self.dim_y * 3
         else:
-            self.n_trials = trial_size
+            self.n_trials = n_trials
 
     @property
     def dim_X(self):
